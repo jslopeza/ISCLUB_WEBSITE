@@ -7,7 +7,7 @@
 	$email = $_POST['email'];
 	$comments = $_POST['comments'];
 
-	echo $name.$company.$email.$comments;
+	echo $name;//.$company.$email.$comments;
 	// Insert 
 	/*$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
