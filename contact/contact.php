@@ -1,6 +1,6 @@
 <?php include '../PHP/connect.php';
 	
-	echo 'Connected'
+	echo 'Connected';
 	// Getting the data
 	//$name = $_POST['name'];
 	$company = $_POST['company'];
