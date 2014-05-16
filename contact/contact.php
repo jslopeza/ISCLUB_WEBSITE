@@ -1,5 +1,5 @@
 <?php require('../PHP/connect.php');
-	error_reporting(E_ALL);
+	
 	echo 'Connected'
 	// Getting the data
 	$name = $_POST['name'];
