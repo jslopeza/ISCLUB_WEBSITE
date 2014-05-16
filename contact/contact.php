@@ -1,4 +1,6 @@
 <?php require('../PHP/connect.php');
 	error_reporting(E_ALL);
-	echo 'Successfully connected';
+	
+	$name = $_POST['name'];
+	echo $name;
 ?>
