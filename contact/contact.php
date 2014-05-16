@@ -8,7 +8,7 @@
 	$comments = $_POST['comments'];
 
 	// Insert 
-	$sth = $dbh->prepare("INSERT INTO contact(name, company, email, comments)
+	$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
 
 
