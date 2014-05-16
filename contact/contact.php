@@ -2,11 +2,12 @@
 	
 	echo 'Connected'
 	// Getting the data
-	/*$name = $_POST['name'];
+	$name = $_POST['name'];
 	$company = $_POST['company'];
 	$email = $_POST['email'];
 	$comments = $_POST['comments'];
 
+	echo $name.$company.$email.$comments;
 	// Insert 
 	$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
