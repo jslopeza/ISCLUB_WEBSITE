@@ -1,4 +1,4 @@
-<?php require('../PHP/connect.php');
+<?php include '../PHP/connect.php';
 	
 	echo 'Connected'
 	// Getting the data
