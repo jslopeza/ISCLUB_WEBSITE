@@ -1,20 +1,18 @@
 <?php include '../PHP/connect.php';
 	
-	echo 'Connected';
 	// Getting the data
 	$name = $_POST['name'];
 	$company = $_POST['company'];
 	$email = $_POST['email'];
 	$comments = $_POST['comments'];
 
-	echo $name.$company.$email.$comments;
 	// Insert 
-	/*$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
+	$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
 
 	echo $sth;
 	// Bind Values
-	$sth->bindParam(':name',$name);
+	/*$sth->bindParam(':name',$name);
 	$sth->bindParam(':company',$company);
 	$sth->bindParam(':emai',$email);
 	$sth->bindParam(':comments',$comments);
