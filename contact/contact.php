@@ -1,6 +1,6 @@
 <?php require('../PHP/connect.php');
 	error_reporting(E_ALL);
-	
+	echo 'Connected'
 	// Getting the data
 	$name = $_POST['name'];
 	$company = $_POST['company'];
@@ -11,7 +11,7 @@
 	$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
 
-
+	echo $sth;
 	// Bind Values
 	$sth->bindParam(':name',$name);
 	$sth->bindParam(':company',$company);
@@ -20,6 +20,8 @@
 
 	// Execute
 	$sth->execute();
+
+	echo 'Data inserted';
 
 	// Mail
 	/*$to = "binoypatel14@gmail.com";
@@ -39,5 +41,5 @@
 	mail($to, $subject, $message, $headers);*/
 
 	// Redirect
-	header('Location: ../index.html');
+	//header('Location: ../index.html');
 ?>
