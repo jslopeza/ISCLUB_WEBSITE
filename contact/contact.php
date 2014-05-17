@@ -20,10 +20,8 @@
 	// Execute
 	$sth->execute();
 
-	echo 'Data inserted';
-
 	// Mail
-	/*$to = "binoypatel14@gmail.com";
+	$to = "binoypatel14@gmail.com";
 	$from = "admin@njitisclub.org";
 	$subject = "Someone Contacted";
 	$replyto = "njitisclub@gmail.com"
@@ -37,7 +35,7 @@
 	$message = "<h1>Someone Contacted</h1>";
 	$message = "<p>Name: ".$name."<br>Company: ".$company."<br>Email".$email."<br>Comments: ".$comments."</p>";
 
-	mail($to, $subject, $message, $headers);*/
+	mail($to, $subject, $message, $headers);
 
 	// Redirect
 	//header('Location: ../index.html');
