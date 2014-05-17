@@ -10,7 +10,7 @@
 	$sth = $dbh->prepare("INSERT INTO Contact(name, company, email, comments)
 						  VALUES(:name, :company, :email, :comments)");
 
-	echo $sth;
+
 	// Bind Values
 	$sth->bindParam(':name',$name);
 	$sth->bindParam(':company',$company);
