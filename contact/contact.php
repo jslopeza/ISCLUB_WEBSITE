@@ -38,5 +38,5 @@
 	mail($to, $subject, $message, $headers);
 
 	// Redirect
-	//header('Location: ../index.html');
+	header('Location: ../index.html');
 ?>
