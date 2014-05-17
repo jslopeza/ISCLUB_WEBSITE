@@ -24,7 +24,7 @@
 	$to = "binoypatel14@gmail.com";
 	$from = "admin@njitisclub.org";
 	$subject = "Someone Contacted";
-	$replyto = "njitisclub@gmail.com"
+	$replyto = "njitisclub@gmail.com";
 
 	$headers = "From: " . $from . "\r\n";
 	$headers = "Reply-To ".$replyto."\r\n";
