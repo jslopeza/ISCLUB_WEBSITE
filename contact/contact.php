@@ -14,7 +14,7 @@
 	// Bind Values
 	$sth->bindParam(':name',$name);
 	$sth->bindParam(':company',$company);
-	$sth->bindParam(':emai',$email);
+	$sth->bindParam(':email',$email);
 	$sth->bindParam(':comments',$comments);
 
 	// Execute
