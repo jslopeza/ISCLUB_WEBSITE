@@ -112,16 +112,11 @@ textarea {
     font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.carousel-images {
+    height : 500px !important;
+    margin-left : auto !important;
+    margin-right: auto !important;
+}
 
 /* ==========================================================================
    Helper classes
